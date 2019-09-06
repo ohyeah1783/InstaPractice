@@ -43,6 +43,10 @@ class CommentViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -50,3 +54,4 @@ class CommentViewController: UIViewController {
     }
 
 }
+

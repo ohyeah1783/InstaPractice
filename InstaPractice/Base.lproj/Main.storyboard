@@ -346,6 +346,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="8CI-X7-jay"/>
                                 </constraints>
                                 <state key="normal" title="キャンセル" backgroundImage="btn"/>
+                                <connections>
+                                    <segue destination="ZRf-20-LEH" kind="unwind" unwindAction="unwind:" id="Ndw-Rj-kg2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -364,6 +367,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXL-eB-cWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="ZRf-20-LEH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3701" y="133"/>
         </scene>
